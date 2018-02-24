@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    /*{
+        let a = 1;
+        var b = 2;
+    }
+    console.log(b);//2
+    console.log(a);//Uncaught ReferenceError: a is not defined
+*/
+
+    /*for(var i = 0;i<3;i++){
+        console.log(i);// 0 1 2
+    }
+    console.log(i);//3
+
+    for(let j = 0;j<3;j++){
+        console.log(j);// 0 1 2
+    }
+    console.log(j);//Uncaught ReferenceError: j is not defined
+*/
+
+
+    function bar(y = 2,x = y ) {
+        return [x,y];
+    };
+    console.log(bar());
+
+
+
+
+
+
+</script>
+</body>
+</html>
